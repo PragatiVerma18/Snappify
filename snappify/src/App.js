@@ -27,7 +27,7 @@ export default class App extends Component {
         <div className="block">
           <InputForm getScrnsht={this.getScrnsht} />
           {this.state.screenshot ? (
-            <img src={this.state.screenshot} alt="link" className="card" />
+            <img src={this.state.screenshot} alt="link" />
           ) : (
             <p>Please enter your link.</p>
           )}
