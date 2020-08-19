@@ -10,25 +10,28 @@ export default class App extends Component {
   getScrnsht = (e) => {
     e.preventDefault();
     const link = e.target.elements.link.value;
+    var w = window.innerWidth;
+    var h = window.innerHeight;
     axios
       .get(
-        `https://screenshotapi.net/api/v1/screenshot?url=${link}&token=REUXZIEP5RLXUEFS8PEF0RZTH15SJK5A`
+        `https://screenshotapi.net/api/v1/screenshot?url=${link}&token=REUXZIEP5RLXUEFS8PEF0RZTH15SJK5A&width=${w}&height=${h}&lazy_load=true&fresh=true`
       )
       .then((res) => {
         const screenshot = res.data.screenshot;
         this.setState({ screenshot });
-        console.log(screenshot);
       });
   };
   render() {
     return (
-      <div>
-        <InputForm getScrnsht={this.getScrnsht} />
-        {this.state.screenshot ? (
-          <img src={this.state.screenshot} alt="link" />
-        ) : (
-          <p>Please enter your link.</p>
-        )}
+      <div className="container">
+        <div className="block">
+          <InputForm getScrnsht={this.getScrnsht} />
+          {this.state.screenshot ? (
+            <img src={this.state.screenshot} alt="link" className="card" />
+          ) : (
+            <p>Please enter your link.</p>
+          )}
+        </div>
       </div>
     );
   }
