@@ -1,68 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Snappify
 
-## Available Scripts
+A Screenshot app with Screenshot API and React js, that create screenshots of websites with the help of the URL that we will paste to the Input field.
 
-In the project directory, you can run:
+> See live Demo here: [https://snappify.netlify.app/](https://snappify.netlify.app/)
 
-### `yarn start`
+![landing page](https://user-images.githubusercontent.com/42115530/100419728-1b454f00-30ab-11eb-885f-cd285905bafa.png)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- **Frontend:** React JS/HTML/CSS/Bootstrap
+- **API**: [Screenshot API](https://screenshotapi.net/)
 
-### `yarn test`
+## Get Started
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Fork and Clone the Repo
 
-### `yarn build`
+```
+git clone https://github.com/PragatiVerma18/Snappify.git
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Install Dependencies
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+cd Snappify
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Run Server
 
-### `yarn eject`
+```
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Open Source Contests
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ### NWoC NJACK WINTER OF CODE
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[NWoC (NJACK Winter of Code)](https://njackwinterofcode.github.io/) is a program by NJACK (The Official Computer Science Club of IIT Patna) that helps students understand the paradigm of Open Source contribution and gives them real world software development experience.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+> **NOTE:** All the contributions to be counted under NWoC should be made to the `nwoc` branch.
 
-## Learn More
+<a href="https://njackwinterofcode.github.io/" >
+<img src="https://njackwinterofcode.github.io/images/nwoc-logo.png" alt="nwoc" height="300" />
+  </a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Project Admin
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![Issues](https://img.shields.io/github/issues/PragatiVerma18/Snappify)](https://github.com/PragatiVerma18) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/PragatiVerma18)
 
-### Code Splitting
+|                                                                                                                        <a href="https://github.com/PragatiVerma18"><img src="https://avatars2.githubusercontent.com/u/42115530?s=460&u=a6f9c19a67bcc69645824c5dabf75b80f22a2dc0&v=4" width=150px height=150px /></a>                                                                                                                         |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                                                                       **[Pragati Verma](https://www.linkedin.com/in/PragatiVerma18/)**                                                                                                                                                                                       |
+| <a href="https://twitter.com/pragati_verma18"><img src="https://openvisualfx.com/wp-content/uploads/2019/10/pnglot.com-twitter-bird-logo-png-139932.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/PragatiVerma18/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a> |
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+> **_Need help?_** > **_Feel free to contact me @ [itispragativerma@gmail.com](mailto:itispragativerma@gmail.com?Subject=SnippetShareProject)_**
 
-### Analyzing the Bundle Size
+[![GitHub followers](https://img.shields.io/github/followers/pragativerma18.svg?label=Follow%20@pragativerma18&style=social)](https://github.com/PragatiVerma18/) [![Twitter Follow](https://img.shields.io/twitter/follow/pragati_verma18?style=social)](https://twitter.com/pragati_verma18)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+> Made By Pragati Verma with ❤️
 
-### Making a Progressive Web App
+> Pragati Verma &copy; 2020
+> <br><br>
+> [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/PragatiVerma18/)
+> [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/PragatiVerma18/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+---
