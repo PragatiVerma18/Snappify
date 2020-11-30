@@ -4,6 +4,12 @@ A Screenshot app with Screenshot API and React js, that create screenshots of we
 
 > See live Demo here: [https://snappify.netlify.app/](https://snappify.netlify.app/)
 
+
+> Chat with us at [Gitter](https://gitter.im/Snappify-React/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+
+[![Gitter](https://badges.gitter.im/Snappify-React/community.svg)](https://gitter.im/Snappify-React/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 ![landing page](https://user-images.githubusercontent.com/42115530/100419728-1b454f00-30ab-11eb-885f-cd285905bafa.png)
 
 ## Tech Stack
@@ -46,7 +52,7 @@ npm start
 
 ## Project Admin
 
-[![Issues](https://img.shields.io/github/issues/PragatiVerma18/Snappify)](https://github.com/PragatiVerma18) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/PragatiVerma18)
+[![Issues](https://img.shields.io/github/issues/PragatiVerma18/Snappify)](https://github.com/PragatiVerma18) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/PragatiVerma18) [![Gitter](https://badges.gitter.im/Snappify-React/community.svg)](https://gitter.im/Snappify-React/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 |                                                                                                                        <a href="https://github.com/PragatiVerma18"><img src="https://avatars2.githubusercontent.com/u/42115530?s=460&u=a6f9c19a67bcc69645824c5dabf75b80f22a2dc0&v=4" width=150px height=150px /></a>                                                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
