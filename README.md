@@ -38,6 +38,11 @@ npm install
 npm start
 ```
 
+##  💼  Code of Conduct
+
+We want to facilitate a healthy and constructive community behavior by adopting and enforcing our code of conduct.
+Please adhere toward our [Code-of-Conduct](Code-of-Conduct.md).
+
 ## Open Source Contests
 
 - ### NWoC NJACK WINTER OF CODE
