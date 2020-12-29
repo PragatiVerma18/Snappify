@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import InputForm from "./Components/InputForm";
-import axios from "axios";
+import getScreenshot from './services/screenshot';
 
 export default class App extends Component {
   state = {
@@ -36,10 +36,7 @@ export default class App extends Component {
     const link = e.target.elements.link.value;
     var w = window.innerWidth;
     var h = window.innerHeight;
-    axios
-      .get(
-        `https://screenshotapi.net/api/v1/screenshot?url=${link}&token=REUXZIEP5RLXUEFS8PEF0RZTH15SJK5A&width=${w}&height=${h}&lazy_load=true&fresh=true`
-      )
+    getScreenshot(link, w, h)
       .then((res) => {
         const screenshot = res.data.screenshot;
         this.setState({ screenshot });
