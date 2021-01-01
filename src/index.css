@@ -19,14 +19,16 @@
 }
 
 .btn {
-  background-color: #000000;
   background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
-
   color: white;
   border: none;
   padding: 10px;
   margin: 5px;
   border-radius: 20px;
+}
+
+.btn:hover {
+  background-image: linear-gradient(315deg, #414141 0%, #696969 74%); 
 }
 
 img {
