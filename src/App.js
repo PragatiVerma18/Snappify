@@ -1,35 +1,12 @@
 import React, { Component } from "react";
+import ReactDOM from "react-dom";
 import InputForm from "./Components/InputForm";
 import getScreenshot from './services/screenshot';
 
 export default class App extends Component {
   state = {
-    screenshot: null, 
+    screenshot: null,
   };
-
-
-   downloadImage = e => {
-    console.log(e.target.href);
-    fetch(this.state.screenshot, {
-      method: "GET",
-      headers: {}
-    })
-      .then(response => {
-        response.arrayBuffer().then(function(buffer) {
-          const url = window.URL.createObjectURL(new Blob([buffer]));
-          const link = document.createElement("a");
-          link.href = url;
-          link.setAttribute("download", "Snappify.png"); //or any other extension
-          document.body.appendChild(link);
-          link.click();
-        });
-      })
-      .catch(err => {
-        console.log(err);
-      });
-  };
-   
-  
 
   getScrnsht = (e) => {
     e.preventDefault();
@@ -42,6 +19,34 @@ export default class App extends Component {
         this.setState({ screenshot });
       });
   };
+
+   downloadImage = (e) => {
+    console.log(e.target.href);
+    fetch("https://cors-anywhere.herokuapp.com/" + this.state.screenshot, {
+      method: "GET",
+      cache:"no-cache",
+      credentials: 'same-origin',
+      headers: {"Access-Control-Allow-Origin": "*",
+    "Content-Type": "application/json"}
+    })
+      .then(response => {
+        response.arrayBuffer().then(function(buffer) {
+          const url = window.URL.createObjectURL(new Blob([buffer]));
+          const link = document.createElement("a");
+          link.href = url;
+          link.setAttribute("download", "Snappify.png"); //or any other extension
+          document.body.appendChild(link);
+          link.click();
+        });
+      })
+
+
+
+      .catch(err => {
+        console.log(err);
+      });
+  };
+
   render() {
     return (
       <div className="container">
@@ -50,10 +55,9 @@ export default class App extends Component {
           {this.state.screenshot ? (
             <div>
               <button onClick={this.downloadImage} className="btn btn-primary btn-lg  search-btn">
-              Download</button>
-              
-              <img src={this.state.screenshot} alt="link" /> 
-            </div>    
+                Download</button>
+              <img src={this.state.screenshot} alt="link" />
+            </div>
           ) : (
             <p>Please enter your link.</p>
           )}
