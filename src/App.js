@@ -10,9 +10,12 @@ export default class App extends Component {
 
    downloadImage = e => {
     console.log(e.target.href);
-    fetch(this.state.screenshot, {
+    fetch("https://cors-anywhere.herokuapp.com/" + this.state.screenshot, {
       method: "GET",
-      headers: {}
+      cache:"no-cache",
+      credentials: 'same-origin',
+      headers: {"Access-Control-Allow-Origin": "*",
+    "Content-Type": "application/json"}
     })
       .then(response => {
         response.arrayBuffer().then(function(buffer) {
