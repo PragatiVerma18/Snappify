@@ -7,7 +7,7 @@ const getScreenshot = (link, w, h, setSc) => {
 	  , {
       params: {
         url: link,
-        token: 'REUXZIEP5RLXUEFS8PEF0RZTH15SJK5A',
+        token: process.env.REACT_APP_API_TOKEN,
         width: w,
         height: h,
         lazy_load: true,
