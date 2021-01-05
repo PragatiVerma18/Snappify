@@ -32,6 +32,11 @@ cd Snappify
 npm install
 ```
 
+- Get your own API token from [Screenshot API](https://screenshotapi.net/) and insert it inside `.env` under the variable name `REACT_APP_API_TOKEN`.
+``` bash
+echo REACT_APP_API_TOKEN=your-token-here > .env
+```
+
 - Run Server
 
 ```
